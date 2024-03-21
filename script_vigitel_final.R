@@ -3610,12 +3610,12 @@ tbl_vig_escolaridade <- merge(pb_escolaridade_filtrado, ef_escolaridade_filtrado
 
 
 ############################### SALVANDO TABELAS ##############################
-write.csv(tbl_vig_ano, "C:/Users/João/Desktop/Estágio Cordial/tabelas finais vigitel/tbl_vig_ano.csv", row.names = TRUE)
-write.csv(tbl_vig_sexo, "C:/Users/João/Desktop/Estágio Cordial/tabelas finais vigitel/tbl_vig_sexo.csv", row.names = TRUE)
-write.csv(tbl_vig_faixaeta, "C:/Users/João/Desktop/Estágio Cordial/tabelas finais vigitel/tbl_vig_faixaeta.csv", row.names = TRUE)
-write.csv(tbl_vig_cidades, "C:/Users/João/Desktop/Estágio Cordial/tabelas finais vigitel/tbl_vig_cidades.csv", row.names = TRUE)
-write.csv(tbl_vig_cor_raca, "C:/Users/João/Desktop/Estágio Cordial/tabelas finais vigitel/tbl_vig_cor_raca.csv", row.names = TRUE)
-write.csv(tbl_vig_escolaridade, "C:/Users/João/Desktop/Estágio Cordial/tabelas finais vigitel/tbl_vig_escolaridade.csv", row.names = TRUE)
+write.csv(tbl_vig_ano, "/tbl_vig_ano.csv", row.names = TRUE)
+write.csv(tbl_vig_sexo, "/tbl_vig_sexo.csv", row.names = TRUE)
+write.csv(tbl_vig_faixaeta, "/tbl_vig_faixaeta.csv", row.names = TRUE)
+write.csv(tbl_vig_cidades, "/tbl_vig_cidades.csv", row.names = TRUE)
+write.csv(tbl_vig_cor_raca, "/tbl_vig_cor_raca.csv", row.names = TRUE)
+write.csv(tbl_vig_escolaridade, "/tbl_vig_escolaridade.csv", row.names = TRUE)
 
 
 
